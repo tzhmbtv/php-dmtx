@@ -1,5 +1,7 @@
 # php-dmtx
 
+> **Note**: This is a fork of the original [ptachoire/php-dmtx](https://github.com/ptachoire/php-dmtx) project with added support for newer PHP versions and PHPUnit 10.x compatibility.
+
 Datamatrix reader/writer based on [libdmtx](https://github.com/dmtx).
 
 ⚠️ The installation of [dmtx-utils](https://github.com/dmtx/dmtx-utils) is required to use the lib.
@@ -45,11 +47,19 @@ composer install
 ./vendor/bin/phpunit
 ```
 
+## Compatibility
+
+This fork is compatible with:
+- PHP 8.x
+- PHPUnit 10.x
+
 ## Credits
 
 Project structure inspired by
 [Negotiation](https://github.com/willdurand/Negotiation) by
 [willdurand](https://github.com/willdurand).
+
+Original package created by [ptachoire](https://github.com/ptachoire).
 
 ## License
 
