@@ -1,8 +1,11 @@
 {
-    "name": "ptachoire/php-dmtx",
-    "description": "Datamatrix r/w based on libdmtx <http://www.libdmtx.org/>",
+    "name": "tzhmbtv/php-dmtx",
+    "description": "Datamatrix reader/writer based on libdmtx with support for PHP 8.x",
+    "type": "library",
+    "keywords": ["datamatrix", "dmtx", "barcode", "libdmtx"],
+    "homepage": "https://github.com/tzhmbtv/php-dmtx",
     "require": {
-        "php": "^7.4|^8.0|^8.1|^8.2|^8.3",
+        "php": ">=8.2",
         "symfony/process": "~3.4||~4.0||~5.0||~6.0||~7.0",
         "symfony/options-resolver": "~3.4||~4.0||~5.0||~6.0||~7.0"
     },
@@ -16,7 +19,20 @@
     "authors": [
         {
             "name": "Pierre Tachoire",
-            "email": "pierre.tachoire@gmail.com"
+            "email": "pierre.tachoire@gmail.com",
+            "role": "Original Author"
+        },
+        {
+            "name": "Elnur Tazhimbetov",
+            "email": "elnur9924@gmail.com",
+            "role": "Maintainer"
         }
-    ]
+    ],
+    "support": {
+        "issues": "https://github.com/tzhbmtv/php-dmtx/issues",
+        "source": "https://github.com/tzhbmtv/php-dmtx"
+    },
+    "replace": {
+        "ptachoire/php-dmtx": "self.version"
+    }
 }
