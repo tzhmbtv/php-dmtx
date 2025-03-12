@@ -9,7 +9,7 @@ Datamatrix reader/writer based on [libdmtx](https://github.com/dmtx).
 ## Install
 
 ```sh
-composer require "ptachoire/php-dmtx:*"
+composer require "tzhmbtv/php-dmtx:*"
 ```
 
 ## Usage
@@ -50,8 +50,14 @@ composer install
 ## Compatibility
 
 This fork is compatible with:
-- PHP 8.x
+- PHP 8.2 or higher
 - PHPUnit 10.x
+- Symfony 3.4, 4.x, 5.x, 6.x, and 7.x packages
+
+## Requirements
+
+- PHP 8.2 or higher
+- [dmtx-utils](https://github.com/dmtx/dmtx-utils) must be installed on your system
 
 ## Credits
 
@@ -60,6 +66,8 @@ Project structure inspired by
 [willdurand](https://github.com/willdurand).
 
 Original package created by [ptachoire](https://github.com/ptachoire).
+
+Maintained by [elnur9924 @tzhmbtv](https://github.com/tzhmbtv).
 
 ## License
 
